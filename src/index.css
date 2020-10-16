@@ -1,0 +1,33 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul>li,
+ol>li {
+  list-style: none;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+::-webkit-scrollbar {
+  display: none
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.page section {
+  width: 50vw;
+  height: 50vh;
+}

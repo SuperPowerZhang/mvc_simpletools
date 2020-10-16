@@ -1,0 +1,32 @@
+.tab {
+    border: 1px solid blue;
+
+}
+
+.tab .head {
+    display: flex;
+    flex-direction: row;
+}
+
+.tab .head li {
+    width: 25vw;
+    height: 15vh;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.tab .head .selected {
+    background-color: yellow;
+    color: blue
+}
+
+.tab .body li {
+    width: 50vw;
+    height: 35vh;
+    border: 1px solid pink;
+    display: none;
+}
+
+.tab .body .selected {
+    display: block;
+}

@@ -1,0 +1,23 @@
+.move {
+
+    border: 1px solid yellow;
+}
+
+.move .square {
+    width: 20vh;
+    height: 20vh;
+    margin-left: 10vw;
+    margin-top: 20vh;
+    background-color: pink;
+    animation: move 3s 1s infinite alternate linear;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}

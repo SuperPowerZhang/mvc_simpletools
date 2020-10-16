@@ -1,0 +1,15 @@
+.calculator {
+
+    border: 1px solid red;
+
+}
+
+.calculator ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.calculator ul li {
+    width: 10vw;
+    height: 10vh;
+}
